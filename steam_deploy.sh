@@ -111,7 +111,7 @@ echo "#        Uploading item         #"
 echo "#################################"
 echo ""
 
-steamcmd +login "$steam_username" +workshop_build_item "$manifest_path" +quit || (
+steamcmd +login "$steam_username" +workshop_build_item "$manifest_path" fileExclusion "*.psd" +quit || (
     echo ""
     echo "#################################"
     echo "#             Errors            #"
