@@ -1,8 +1,9 @@
-# Steam Workshop Deploy
+# BoldestDungeon's copy of Steam Workshop Deploy
 
 Github Action to upload items to the Steam Workshop. 
 Supports an alternative Steam Guard 2FA approach that does not require the TOTP seed.
 Instead, you can login through SteamCMD on your local computer once, and then add the session data to a GitHub secret.
+WIP, Attempts to exclude .psd files
 
 Based on [Steam Deploy](https://github.com/game-ci/steam-deploy) by Webber Takken
 
