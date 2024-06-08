@@ -1,5 +1,5 @@
-name: 'Steam Workshop Deploy'
-author: m00nl1ght-dev (original version by Webber Takken <webber@takken.io>), tweaked by Ironskink
+name: 'Steam Workshop Deploy - Exclude .psd Files'
+author: m00nl1ght-dev (original version by Webber Takken <webber@takken.io>), tweaked by Ironskink/BoldestDungeon
 description: 'Deploy to the Steam Workshop using SteamCMD. Supports an alternative Steam Guard 2FA approach without TOTP seed.'
 branding:
   icon: 'arrow-up-circle'
